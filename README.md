@@ -1,2 +1,1 @@
-# Alura-JavaScript-Robotron
-Curso Alura - JavaScript: manipulando o DOM
+# robotron-2000
