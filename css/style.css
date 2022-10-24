@@ -47,7 +47,7 @@ main {
 
 .titulo {
     transform: rotate(180deg);
-    font-weight: 500;
+    font-weight: 200;
     font-size: 130px;
     position: absolute;
     bottom: 7rem;
@@ -65,7 +65,22 @@ main {
     height: 80%;
 }
 
+/****************************** Altera cor do robô *****/
+
+.alterar {
+    margin: 3px;
+    width: 100px;
+}
+
+.botoes {
+   position: relative;
+   right: 5%;
+   bottom: 10%;
+   display: flex;
+}
+
 /****************************** Equipamentos *****/
+
 
 .equipamentos {
     flex-basis: 32%;
@@ -208,6 +223,8 @@ main {
     flex-basis: 35%;
     margin: 10px 0 0;
 }
+
+
 
 @media screen and (max-width: 1600px) {
     body { 

@@ -1,11 +1,3 @@
-// const subtrair = document.querySelector("#subtrair");
-// const somar = document.querySelector("#somar");
-// const braco = document.querySelector("#braco");
-
-const controle = document.querySelectorAll("[data-controle]");
-// console.log(controle)
-const estatistica = document.querySelectorAll("[data-estatistica]")
-console.log(estatistica)
 const pecas = {
     "bracos": {
         "forca": 29,
@@ -40,10 +32,15 @@ const pecas = {
     }
 }
 
+const controle = document.querySelectorAll("[data-controle]");
+// console.log(controle)
+const estatistica = document.querySelectorAll("[data-estatistica]")
+// console.log(estatistica)
+
 controle.forEach((elemento) => {
   elemento.addEventListener("click", (evento) => {
-    manipulaDados(evento.target.textContent, evento.target.parentNode);
-    atualizaEstatisticas(evento.target.dataset.peca)
+    manipulaDados(evento.target.dataset.controle, evento.target.parentNode);
+    atualizaEstatisticas(evento.target.dataset.peca, evento.target.dataset.controle)
   });
 });
 
@@ -57,14 +54,21 @@ function manipulaDados(operacao, controle) {
   }
 }
 
-function atualizaEstatisticas(peca) {
-    // console.log(peca[peca])
-    estatistica.forEach( (elemento) => {
-        // console.log(elemento.dataset.estatistica)
-        // console.log(elemento.textContent)
-        elemento.textContent = parseInt(elemento.textContent) + pecas[peca][elemento.dataset.estatistica]
-        
-    })
+function atualizaEstatisticas(peca, operacao) {
+  if(operacao === "+") {
+      estatistica.forEach( (elemento) => {
+        elemento.textContent = parseInt(elemento.textContent) + pecas[peca][elemento.dataset.estatistica];
+      })
+    } else {
+      estatistica.forEach( (elemento) => {
+        elemento.textContent = parseInt(elemento.textContent) - pecas[peca][elemento.dataset.estatistica];
+      })
+    }
+}
+
+// TROCA COR DO ROBÔ
+function trocaImagem(cor){
+  document.querySelector(".robo").src="img/Robotron-" + cor + ".png";
 }
 
 // const robotron = document.querySelector("#robotron")

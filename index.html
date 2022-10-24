@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico" />
-    <title>Robotron 2000</title>
+    <title>Robotron 2020</title>
 
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,13 +18,33 @@
   <body>
     <main>
       <section class="robotron">
+        <section class="botoes">
+          <button style="background-color: blue; color: white" class="alterar" alterar onclick="trocaImagem('Azul')">
+            Azul
+          </button>
+          <button style="background-color: yellow" class="alterar" alterar onclick="trocaImagem('Amarelo')">
+            Amarelo
+          </button>
+          <button style="background-color: white" class="alterar" alterar onclick="trocaImagem('Branco')">
+            Branco
+          </button>
+          <button style="background-color: black; color: white" class="alterar" alterar onclick="trocaImagem('Preto')">
+            Preto
+          </button>
+          <button style="background-color: pink" class="alterar" alterar onclick="trocaImagem('Rosa')">
+            Rosa
+          </button>
+          <button style="background-color: red; color: white" class="alterar" alterar onclick="trocaImagem('Vermelho')">
+            Vermelho
+          </button>
+        </section>
         <img
           class="robo"
-          src="img/Robotron 2000 - Vermelho.png"
+          src="img/Robotron-Vermelho.png"
           alt="Robotron"
           id="robotron"
         />
-        <figcaption class="titulo">ROBOTRON <br />2000</figcaption>
+        <figcaption class="titulo">ROBOTRON <br />2020</figcaption>
       </section>
 
       <section class="box estatisticas">
@@ -60,45 +80,120 @@
             <div class="peca">
               <label for="" class="peca-titulo">Braços</label>
               <div class="controle">
-                <buttom class="controle-ajuste" data-controle="-" data-peca="bracos">-</buttom>
-                <input type="text" class="controle-contador" value="00" data-contador />
-                <buttom class="controle-ajuste" data-controle="+" data-peca="bracos">+</buttom>
+                <buttom
+                  class="controle-ajuste"
+                  data-controle="-"
+                  data-peca="bracos"
+                  >-</buttom
+                >
+                <input
+                  type="text"
+                  class="controle-contador"
+                  value="00"
+                  data-contador
+                />
+                <buttom
+                  class="controle-ajuste"
+                  data-controle="+"
+                  data-peca="bracos"
+                  >+</buttom
+                >
               </div>
             </div>
             <hr class="linha" />
             <div class="peca">
               <label for="" class="peca-titulo">Blindagem</label>
               <div class="controle">
-                <buttom class="controle-ajuste" data-controle="-" data-peca="blindagem">-</buttom>
-                <input type="text" class="controle-contador" value="00" data-contador/>
-                <buttom class="controle-ajuste" data-controle="+" data-peca="blindagem">+</buttom>
+                <buttom
+                  class="controle-ajuste"
+                  data-controle="-"
+                  data-peca="blindagem"
+                  >-</buttom
+                >
+                <input
+                  type="text"
+                  class="controle-contador"
+                  value="00"
+                  data-contador
+                />
+                <buttom
+                  class="controle-ajuste"
+                  data-controle="+"
+                  data-peca="blindagem"
+                  >+</buttom
+                >
               </div>
             </div>
             <hr class="linha" />
             <div class="peca">
               <label for="" class="peca-titulo">Núcleos</label>
               <div class="controle">
-                <buttom class="controle-ajuste" data-controle="-" data-peca="nucleos">-</buttom>
-                <input type="text" class="controle-contador" value="00" data-contador/>
-                <buttom class="controle-ajuste" data-controle="+" data-peca="nucleos">+</buttom>
+                <buttom
+                  class="controle-ajuste"
+                  data-controle="-"
+                  data-peca="nucleos"
+                  >-</buttom
+                >
+                <input
+                  type="text"
+                  class="controle-contador"
+                  value="00"
+                  data-contador
+                />
+                <buttom
+                  class="controle-ajuste"
+                  data-controle="+"
+                  data-peca="nucleos"
+                  >+</buttom
+                >
               </div>
             </div>
             <hr class="linha" />
             <div class="peca">
               <label for="" class="peca-titulo">Pernas</label>
               <div class="controle">
-                <buttom class="controle-ajuste" data-controle="-" data-peca="pernas">-</buttom>
-                <input type="text" class="controle-contador" value="00" data-contador/>
-                <buttom class="controle-ajuste" data-controle="+" data-peca="pernas">+</buttom>
+                <buttom
+                  class="controle-ajuste"
+                  data-controle="-"
+                  data-peca="pernas"
+                  >-</buttom
+                >
+                <input
+                  type="text"
+                  class="controle-contador"
+                  value="00"
+                  data-contador
+                />
+                <buttom
+                  class="controle-ajuste"
+                  data-controle="+"
+                  data-peca="pernas"
+                  >+</buttom
+                >
               </div>
             </div>
             <hr class="linha" />
             <div class="peca">
               <label for="" class="peca-titulo">Foguetes</label>
               <div class="controle">
-                <buttom class="controle-ajuste" data-controle="-" data-peca="foguetes">-</buttom>
-                <input type="text" class="controle-contador" value="00" data-contador/>
-                <buttom class="controle-ajuste" data-controle="+" data-peca="foguetes">+</buttom>
+                <buttom
+                  class="controle-ajuste"
+                  data-controle="-"
+                  data-peca="foguetes"
+                  >-</buttom
+                >
+                <input
+                  type="text"
+                  class="controle-contador"
+                  value="00"
+                  data-contador
+                />
+                <buttom
+                  class="controle-ajuste"
+                  data-controle="+"
+                  data-peca="foguetes"
+                  >+</buttom
+                >
               </div>
             </div>
           </div>
