@@ -1,6 +1,10 @@
 # [Curso Alura - JavaScript: manipulando o DOM - 6hs](https://cursos.alura.com.br/course/javascript-manipulando-dom)
 ## Com o professor [Pedro Marins](https://www.linkedin.com/in/pedromarins/)
   
+Nesse projeto é possível alterar as cores do robô e os valores de força, poder, energia e velocidade.
+Fiz a versão Mobile também e você pode conferir o projeto no link abaixo:
+
+
 ### [Visualize o Projeto](https://javascript-robotron-patyfil.vercel.app/)
 
 
