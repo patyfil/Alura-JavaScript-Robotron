@@ -35,7 +35,6 @@ input {
 section.robotron {
   background: url(../img/estrutura.png) no-repeat;
   background-position: center center;
-  margin: 0;
   flex-basis: 40%;
   position: relative;
 }
@@ -80,17 +79,16 @@ section.robotron {
 /****************************** Altera cor do robô *****/
 
 .alterar {
-  margin: 3px;
-  width: 30px;
-  height: 30px;
+  width: 28px;
+  height: 28px;
   border-radius: 50%;
+  margin: 0 7px;
+
 }
 
 .botoes {
-  position: relative;
-  /* right: 5%; */
-  bottom: 10%;
   display: flex;
+  position: relative;
   z-index: 2;
 }
 

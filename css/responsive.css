@@ -60,9 +60,12 @@
     height: auto;
   }
 
+  .alterar{
+    border: 2px solid white;
+  }
+  
   .botoes {
     justify-content: center;
-    right: 0;
   }
 
   section.box.estatisticas {
@@ -83,8 +86,8 @@
 
 @media (max-width: 700px) {
   body.fundo {
-    /* background: rgb(204 204 204); */
-    background: url(../img/fundo-mobile.jpg)
+    background: url(../img/fundo-mobile.jpg);
+    /* background-color: rgba(204 204 204 0.1); */
   }
 
   body section.robotron {
