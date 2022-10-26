@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico" />
     <title>Robotron 2020</title>
-
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,65 +15,88 @@
     />
   </head>
   <body>
-    <main>
+    <main class="conteudo-principal">
       <section class="robotron">
-        <section class="botoes">
-          <button style="background-color: blue; color: white" class="alterar" alterar onclick="trocaImagem('Azul')">
-            Azul
-          </button>
-          <button style="background-color: yellow" class="alterar" alterar onclick="trocaImagem('Amarelo')">
-            Amarelo
-          </button>
-          <button style="background-color: white" class="alterar" alterar onclick="trocaImagem('Branco')">
-            Branco
-          </button>
-          <button style="background-color: black; color: white" class="alterar" alterar onclick="trocaImagem('Preto')">
-            Preto
-          </button>
-          <button style="background-color: pink" class="alterar" alterar onclick="trocaImagem('Rosa')">
-            Rosa
-          </button>
-          <button style="background-color: red; color: white" class="alterar" alterar onclick="trocaImagem('Vermelho')">
-            Vermelho
-          </button>
-        </section>
-        <img
-          class="robo"
-          src="img/Robotron-Vermelho.png"
-          alt="Robotron"
-          id="robotron"
-        />
-        <figcaption class="titulo">ROBOTRON <br />2020</figcaption>
+        <div class="parte1">
+          <img
+            class="robo"
+            src="img/Robotron-Vermelho.png"
+            alt="Robotron"
+            id="robotron"
+          />
+          <figcaption class="titulo">ROBOTRON <br />2020</figcaption>
+          <div class="botoes">
+            <button
+              style="background-color: blue; color: white"
+              class="alterar"
+              alterar
+              onclick="trocaImagem('Azul')"
+            ></button>
+            <button
+              style="background-color: yellow"
+              class="alterar"
+              alterar
+              onclick="trocaImagem('Amarelo')"
+            ></button>
+            <button
+              style="background-color: white"
+              class="alterar"
+              alterar
+              onclick="trocaImagem('Branco')"
+            ></button>
+            <button
+              style="background-color: black; color: white"
+              class="alterar"
+              alterar
+              onclick="trocaImagem('Preto')"
+            ></button>
+            <button
+              style="background-color: pink"
+              class="alterar"
+              alterar
+              onclick="trocaImagem('Rosa')"
+            ></button>
+            <button
+              style="background-color: red; color: white"
+              class="alterar"
+              alterar
+              onclick="trocaImagem('Vermelho')"
+            ></button>
+          </div>
+        </div>
       </section>
 
       <section class="box estatisticas">
-        <div class="estatistica">
-          <p class="estatistica-titulo">Força</p>
-          <div class="estatistica-valor">
-            <p class="estatistica-numero" data-estatistica="forca">0</p>
+        <div class="parte2">
+          <div class="estatistica">
+            <p class="estatistica-titulo">Força</p>
+            <div class="estatistica-valor">
+              <p class="estatistica-numero" data-estatistica="forca">0</p>
+            </div>
           </div>
-        </div>
-        <div class="estatistica">
-          <p class="estatistica-titulo">Poder</p>
-          <div class="estatistica-valor">
-            <p class="estatistica-numero" data-estatistica="poder">0</p>
+          <div class="estatistica">
+            <p class="estatistica-titulo">Poder</p>
+            <div class="estatistica-valor">
+              <p class="estatistica-numero" data-estatistica="poder">0</p>
+            </div>
           </div>
-        </div>
-        <div class="estatistica">
-          <p class="estatistica-titulo">Energia</p>
-          <div class="estatistica-valor">
-            <p class="estatistica-numero" data-estatistica="energia">0</p>
+          <div class="estatistica">
+            <p class="estatistica-titulo">Energia</p>
+            <div class="estatistica-valor">
+              <p class="estatistica-numero" data-estatistica="energia">0</p>
+            </div>
           </div>
-        </div>
-        <div class="estatistica">
-          <p class="estatistica-titulo">Velocidade</p>
-          <div class="estatistica-valor">
-            <p class="estatistica-numero" data-estatistica="velocidade">0</p>
+          <div class="estatistica">
+            <p class="estatistica-titulo">Velocidade</p>
+            <div class="estatistica-valor">
+              <p class="estatistica-numero" data-estatistica="velocidade">0</p>
+            </div>
           </div>
         </div>
       </section>
 
       <section class="equipamentos">
+        <div class="parte3">
         <form action="" class="montador">
           <div class="box montador-conteudo">
             <div class="peca">
@@ -204,6 +226,7 @@
             id="producao"
           />
         </form>
+      </div>
       </section>
     </main>
     <script defer src="js/main.js"></script>

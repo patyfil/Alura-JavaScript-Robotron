@@ -1,0 +1,105 @@
+@media screen and (max-width: 1600px) {
+  body {
+    font-size: 14px;
+  }
+
+  .conteudo-principal {
+    width: 90vw;
+    height: 80vh;
+    margin: 5vh auto;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    font-size: 13px;
+  }
+
+  .conteudo-principal {
+    width: 96vw;
+    height: 80vh;
+    margin: 10vh auto;
+  }
+}
+
+@media (max-width: 1000px) {
+  body {
+    font-size: 12px;
+    background: none;
+    background-color: black;
+    removeProperty(background);
+  }
+
+  main.conteudo-principal {
+    flex-direction: column;
+    align-items: center;
+    margin: 1vh 4vw 1vh 10vw;
+  }
+
+  .parte1,
+  .parte2,
+  .parte3 {
+    margin: 20px 0;
+  }
+
+  figcaption.titulo {
+    display: flex;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.6);
+    writing-mode: horizontal-tb;
+    position: inherit;
+    transform: rotate(0deg);
+    font-size: 90px;
+    z-index: -1;
+  }
+
+  img.robo {
+    position: inherit;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+  }
+
+  .botoes {
+    justify-content: center;
+    right: 0;
+  }
+
+  section.box.estatisticas {
+    position: relative;
+    width: 30vh;
+    margin-botton: 2em;
+  }
+
+  section.equipamentos {
+    width: 50vw;
+    height: 100vh;
+  }
+
+  input.producao {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  body {
+    background-color: rgba(255,0,0,0.5);
+  }
+
+  section.box.estatisticas {
+    position: relative;
+    width: 30vh;
+    padding: 20px 20px;
+  }
+
+  section.equipamentos {
+    width: 100%;
+  }
+
+  div.box.montador-conteudo {
+    padding: 20px 20px;
+  }
+}
