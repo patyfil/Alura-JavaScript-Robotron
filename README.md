@@ -3,17 +3,19 @@
 ### [Visualize o Projeto](https://javascript-robotron-patyfil.vercel.app/)
 
 
-##Conteúdo
+## Conteúdo
 Este curso abordou os seguintes tópicos:
 
-JavaScript para Web
-Interagindo com uma página
-Montando uma peça
-Montando um robô
-Calculando o poder
+JavaScript para Web  
+Interagindo com uma página  
+Montando uma peça  
+Montando um robô  
+Calculando o poder  
 
 
 <p align="center">
-  <img src = "https://github.com/patyfil/Alura-JavaScript-Robotron/blob/main/img/robotron-projeto%20final.jpg" width="650" alt="template pc">  
+  <img src = "https://github.com/patyfil/Alura-JavaScript-Robotron/blob/main/img/Robotron-Desktop.jpg" width="650" alt="template pc">  
     <br />
+    <img src = "https://github.com/patyfil/Alura-JavaScript-Robotron/blob/main/img/Robotron-Mobile2.jpg" width="250" alt="template mobile">  
+    <img src = "https://github.com/patyfil/Alura-JavaScript-Robotron/blob/main/img/Robotron-Mobile.jpg" width="250" alt="template mobile">  
 </p>
