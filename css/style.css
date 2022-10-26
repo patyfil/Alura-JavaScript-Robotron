@@ -82,13 +82,13 @@ section.robotron {
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  margin: 0 7px;
+  margin: -20px 7px;
 
 }
 
 .botoes {
   display: flex;
-  position: relative;
+  position: absolute;
   z-index: 2;
 }
 

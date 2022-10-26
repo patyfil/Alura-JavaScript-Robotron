@@ -61,11 +61,12 @@
     height: auto;
   }
 
-  .alterar{
-    border: 2px solid white;
-  }
+  button.alterar {
+    margin: 0px 7px;
 
-  .botoes {
+  }
+  div.botoes{
+    position: relative;
     justify-content: center;
   }
 
@@ -93,6 +94,14 @@
 
   body section.robotron {
     background: none;
+  }
+
+  button.alterar {
+    margin: 0px 7px;
+  }
+
+  div.botoes{
+    position: relative;
   }
 
   section.box.estatisticas {
