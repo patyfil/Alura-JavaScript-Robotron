@@ -1,5 +1,6 @@
 # [Curso Alura - JavaScript: manipulando o DOM - 6hs](https://cursos.alura.com.br/course/javascript-manipulando-dom)
-
+## Com o professor [Pedro Marins](https://www.linkedin.com/in/pedromarins/)
+  
 ### [Visualize o Projeto](https://javascript-robotron-patyfil.vercel.app/)
 
 
