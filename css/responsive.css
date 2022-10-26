@@ -47,6 +47,7 @@
     position: inherit;
     transform: rotate(0deg);
     font-size: 90px;
+    text-align: center;
     z-index: -1;
   }
 
@@ -63,7 +64,7 @@
   .alterar{
     border: 2px solid white;
   }
-  
+
   .botoes {
     justify-content: center;
   }
